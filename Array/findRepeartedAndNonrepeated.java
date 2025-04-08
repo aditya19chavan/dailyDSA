@@ -11,8 +11,7 @@ System.out.println("Repeating elements: ");
 for(int i=0;i<arr.length - 1;i++){
 if(arr[i] == arr[i+1]){
     System.out.println(arr[i] + " ");
-    while(i<arr.length-1&&arr[i] == arr[i+1]);
-    i++;
+
 }
 }
 
