@@ -1,6 +1,5 @@
 package RajaSoftware;
 //isomorphic string 
-import java.util.HashMap;
 
 public class vimp6 {
     public static void main(String[] args) {
@@ -14,13 +13,13 @@ public class vimp6 {
         int[]arr_t = new int [128];
 
         for(int i=0;i<s.length();i++){
-            char char_s = s.charAt(i);
-            char char_t = t.charAt(i);
+            char m = s.charAt(i);
+            char n = t.charAt(i);
 
-            if(arr_s[char_s] == 0) arr_s[char_s] = char_t;
-            if(arr_t[char_t] == 0) arr_t[char_t] = char_s;
+            if(arr_s[m] == 0) arr_s[m] = n;
+            if(arr_t[n] == 0) arr_t[n] = m;
 
-            if(arr_s[char_s] != char_t || arr_t[char_t] != char_s)
+            if(arr_s[m] != n || arr_t[n] != m)
             return false;
         }
         return true;

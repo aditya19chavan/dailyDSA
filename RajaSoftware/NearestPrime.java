@@ -1,7 +1,7 @@
 package RajaSoftware;
 public class NearestPrime {
     public static void main(String[] args) {
-        int num = 38; // Change this to test with other numbers
+        int num = 31; // Change this to test with other numbers
         System.out.println("Nearest prime: " + findNearestPrime(num));
     }
 

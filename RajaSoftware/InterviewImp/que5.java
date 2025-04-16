@@ -16,7 +16,7 @@
 
 
 
-package RajaSoftware;
+package RajaSoftware.InterviewImp;
 
 public class que5 {
     public static void main(String[] args) {

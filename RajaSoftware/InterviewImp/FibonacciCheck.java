@@ -1,4 +1,4 @@
-package RajaSoftware;
+package RajaSoftware.InterviewImp;
 // write a function which takes input as a number. if the given number is a Fibnacci number, print the number 
 // if the given number is NOT a fibonacci number,print the sum of all even fibonacci numbers less than the given number.    
 // Example: 21 is a fibonacci number input:21 output 21    (20 is not a fibonacci so output is 10(2+8))

@@ -1,7 +1,7 @@
 
 //merge two list by taking alternatively valuesfrom another eg[2,3,5,8] [1,4,9,7] output shou;ld be [2,1,3,4,5,9,8,7]
 
-package RajaSoftware;
+package RajaSoftware.InterviewImp;
 import java.util.ArrayList;
 
 
